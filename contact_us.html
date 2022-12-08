@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Contact Us</title>
+    <style>
+      body{
+        background-color: hsl(0, 0%, 84%);;
+      }
+      #content{
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+      }
+      #card{
+        background-color: black;
+        color: white;
+      }
+    </style>
+</head>
+<body>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-xl bg-success fixed-top">
+    <div class="container-fluid">
+        <img src="/img/sprite_nav_logo.png" alt="logo" width="100px">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fw-bold">
+                <li class="nav-item">
+                    <a class="nav-link PRODUCTS" aria-current="page" href="/index.html">PRODUCTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link PRODUCTS" aria-current="page" href="/index.html">THE CREATORS</a>
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link PRODUCTS" aria-current="page" href="/index.html">BUY NOW</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link PRODUCTS" aria-current="page" href="/biodata.html">BIODATA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link PRODUCTS" aria-current="page" href="/contact_us.html">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link PRODUCTS" aria-current="page" href="/freeContent.html">FREE CONTENT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link PRODUCTS" aria-current="page" href="https://fti.unai.edu" target="_blank">FTI UNAI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link PRODUCTS" aria-current="page" href="https://unai.edu" target="_blank">UNAI Website</a>
+                </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-4 flex-row">
+                <li class="nav-item me-2">
+                    <a class="nav-link" aria-current="page" href="https://www.facebook.com/spriteus" target="_blank"><img src="/img/Fb.png" alt="Fb"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-2" aria-current="page" href="https://twitter.com/Sprite" target="_blank"><img src="/img/twitter.png" alt="tw"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-2" aria-current="page" href="https://www.youtube.com/user/sprite" target="_blank"><img src="/img/youtube.png" alt="yt"></a>
+                </li>
+                <li class="nav-item me-2">
+                    <a class="nav-link" aria-current="page" href="https://www.instagram.com/sprite/" target="_blank"><img src="/img/instagram.png" alt="ig"></a>
+                </li>
+                <li class="nav-item me-2">
+                    <a class="nav-link " aria-current="page" href="https://open.spotify.com/playlist/0F9GnzKQchH4mZ56dysDJa" target="_blank"><img src="/img/spotify.png" alt="sp"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+  <!-- Akhir header -->
+
+  <!-- Content -->
+  <div id="content" class="row justify-content-center">
+    <div class="col-xl-7">
+      <div id="card" class="card container mt-5 py-3">
+        <h5 class="card-header">Contact Us</h5>
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="email">
+            </div>
+            <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" class="form-control" id="username" aria-describedby="username">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <label for="inputPassword2" class="visually-hidden">Password</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+            </div>
+            <div class="mb-3">
+              <label for="gender" class="form-label">Gender</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">Laki-laki</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">Perempuan</label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="religion" class="form-label">Religion </label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">Kristen Protestan</option>
+                <option value="1">Kristen Advent</option>
+                <option value="2">Kristen Katolik</option>
+                <option value="3">Islam</option>
+                <option value="3">Hindu</option>
+                <option value="3">Buddha</option>
+                <option value="3">Konghucu</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="address" class="form-label">Address</label>
+              <textarea class="form-control" id="pesan" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="hobi" class="form-label">Hobi</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">Olah raga</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">Bernyanyi</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">Membaca</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">Menonton film</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">Tidur</label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir content -->
+
+  <!-- Footer -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#198754" fill-opacity="1" d="M0,224L60,224C120,224,240,224,360,234.7C480,245,600,267,720,272C840,277,960,267,1080,250.7C1200,235,1320,213,1380,202.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+  <footer class="bg-success text-white text-center py-3">
+    <p>Created with love by <a href="#" class="text-white fw-bold">Derson Silaban</a></p>
+</footer>
+  <!-- Akhir fotter -->
+</body>
+</html>
